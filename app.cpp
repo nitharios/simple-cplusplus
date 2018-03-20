@@ -13,7 +13,7 @@ int main()
   char oper;
   cout << "Hello! I am a calculator!" << endl;
   cout << "Please enter num1 operator num2: " << endl;
-  cin >> x >> y >> oper;
+  cin >> x >>y>>oper;
   Calculator c;
   result = c.Calculate(x, y, oper);
   cout << "Result is: " << result << endl;
@@ -27,13 +27,13 @@ int Calculator::Calculate(int x, int y, char oper)
 {
   switch (oper)
   {
-  case "+":
+  case '+':
     return x + y;
-  case "-":
+  case '-':
     return x - y;
-  case "*":
+  case '*':
     return x * y;
-  case "/":
+  case '/':
     if (y != 0)
       return x / y;
   default:
