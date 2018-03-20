@@ -23,4 +23,4 @@ To get my hands dirty with C++
 
 ## Resources
 
-[C/C++ for VS Code](https://code.visualstudio.com/docs/languages/cpp)
+- [C/C++ for VS Code](https://code.visualstudio.com/docs/languages/cpp)
