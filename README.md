@@ -58,4 +58,4 @@ See *[Configure launch.json for C/C++ debugging](https://github.com/Microsoft/vs
 ## Resources
 
 - [C/C++ for VS Code](https://code.visualstudio.com/docs/languages/cpp)
-- [C++ Tutorial - Simple Snake Game (3 Parts)](https://www.youtube.com/watch?v=E_-lMZDi7Uw&list=PLrjEQvEart7dPMSJiVVwTDZIHYq6eEbeL)
+- [VS Code: C++ Development With Visual Studio Code](https://www.youtube.com/watch?v=X7CXjKGi_ro)
