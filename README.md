@@ -25,7 +25,7 @@ To get my hands dirty with C++
 
 1. Create `app.cpp`
 
-#### Build
+#### Building Your Code
 
 1. Open **Command Palette** (⇧⌘P)
 1. Select **Tasks: Configure Tasks**
@@ -36,11 +36,22 @@ To get my hands dirty with C++
 1. Add any required args (for example `-g` to build for debugging)
 1. You may also change `label` to be more descriptive
 
+See *[Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)* for more information about Tasks
+
 #### Intellisense
 
 1. Open **Command Palette** (⇧⌘P)
 1. Select **C/Cpp: Edit Configurations**
 1. `c_cpp_properties.json` should now exist under **.vscode** in your project directory
+
+#### Debugging
+
+1. Open **Command Palette** (⇧⌘P)
+1. Select **Debug: Open launch.json**
+1. When prompted in **Select Environment**, select **C++ (GBD/LLDB)**
+1. Update the `program` property with the path to the program you are debugging
+
+See *[Configure launch.json for C/C++ debugging](https://github.com/Microsoft/vscode-cpptools/blob/master/launch.md)* for more information
 
 ## Troubleshooting
 
