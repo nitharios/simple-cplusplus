@@ -7,13 +7,20 @@ public:
   int Calculate(int, int, char);
 };
 
+/* main entry point for application  */
 int main()
 {
   int x, y, result;
   char oper;
+
+  /* greet and prompt user */
   cout << "Hello! I am a calculator!" << endl;
   cout << "Please enter num1 operator num2: " << endl;
-  cin >> x >>y>>oper;
+
+  /* capture input and store in following order */
+  cin >> x >> y >> oper;
+  
+  /* instantiate Calculator class and call method */
   Calculator c;
   result = c.Calculate(x, y, oper);
   cout << "Result is: " << result << endl;
